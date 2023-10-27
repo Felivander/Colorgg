@@ -1,5 +1,9 @@
 Simple Color Generator
 
+```
+git clone https://github.com/Felivander/Colorgg
+```
+
 Libraries used
 
 
