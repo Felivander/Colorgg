@@ -11,6 +11,8 @@ and
 #### React-Color
 
 [react-color](https://www.npmjs.com/package/react-color)
+
+
 Installation
 
 NPM
