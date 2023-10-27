@@ -194,6 +194,18 @@ button:focus-visible {
     font-size: 0.85rem;
   }
 }
+
+@media (max-width: 760px) {
+  .container {
+    flex-direction: column;
+  }
+
+  input {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
 input.error {
   border: 2px solid var(--clr-red-dark);
 }
