@@ -19,10 +19,3 @@ Libraries used
 
 [react-color](https://www.npmjs.com/package/react-color)
 
-
-Dependencies
-
-NPM
-```
-npm i values.js --save && npm i react-color
-```
