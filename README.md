@@ -1,3 +1,5 @@
+Simple Color Generator
+
 Libraries used
 
 
