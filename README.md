@@ -2,6 +2,9 @@ Simple Color Generator
 
 ```
 git clone https://github.com/Felivander/Colorgg
+cd Colorgg
+npm i
+npm start
 ```
 
 Libraries used
@@ -17,7 +20,7 @@ Libraries used
 [react-color](https://www.npmjs.com/package/react-color)
 
 
-Installation
+Dependencies
 
 NPM
 ```
