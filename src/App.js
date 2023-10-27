@@ -7,6 +7,10 @@ function App() {
   const [color, setColor] = useState("");
   const [error, setError] = useState(false);
   const [list, setList] = useState(new Values("#ff0000").all(10));
+  const [alert, setAlert] = useState(false);
+  const [selectedHex, setSelectedHex] = useState('');
+
+  
 
 
   const handleOnChange = (color) =>{
@@ -52,7 +56,7 @@ function App() {
       <section className="colors">
         {list.map((color, index) => {
           console.log(color);
-          return <SingleColor key={index} {...color} index={index} hexColor={color.hex}/>;
+          return <SingleColor key={index} {...color} index={index} hexColor={color.hex} selectedHex={selectedHex} setSelectedHex={setSelectedHex}/>;
         })}
       </section>
     </>
