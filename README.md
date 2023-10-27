@@ -4,5 +4,6 @@
 
 Installation
 NPM
-
+```
 npm install values.js --save
+```
